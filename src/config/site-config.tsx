@@ -40,7 +40,7 @@ export const siteConfig = {
   description:
     'MultiDevOps es una plataforma que brinda soluciones para la gestión de proyectos de desarrollo de software.',
   socialMedias,
-  mainNav
+  mainNav,
 }
 
 export type SiteConfig = typeof siteConfig

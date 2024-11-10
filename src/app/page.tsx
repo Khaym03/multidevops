@@ -1,5 +1,15 @@
+import Automatization from '@/components/automatization'
+import DashboardsShowcases from '@/components/dashboards-showcases'
+import Hero1 from '@/components/hero-1'
+import HeroScene from '@/components/hero-scene'
+
 export default function Home() {
   return (
-    <div className="flex items-center justify-items-center min-h-[calc(100vh-3.5rem)] p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"></div>
+    <>
+      <HeroScene />
+      <Hero1 />
+      <Automatization />
+      <DashboardsShowcases />
+    </>
   )
 }
