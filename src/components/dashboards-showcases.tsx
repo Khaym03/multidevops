@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function DashboardsShowcases() {
   return (
-    <section className="flex flex-col h-[calc(100vh-3.5rem)] w-full overflow-hidden">
+    <section className="flex flex-col h-[calc(100vh-3.5rem)] w-full overflow-hidden mt-10">
       <Header />
       <section className="flex flex-start relative gap-8 grow w-full shadow-[inset_0_4px_10px_rgba(255,255,255,0.5)]">
         <div className="flex flex-col gap-8 w-[300px] h-full overflow-hidden">

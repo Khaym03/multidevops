@@ -3,6 +3,7 @@ import localFont from 'next/font/local'
 import './globals.css'
 import { SiteHeader } from '@/components/site-header'
 import Footer from '@/components/footer'
+import { HeroSwapProvider } from '@/components/hero-options'
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -31,9 +32,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex flex-col items-center justify-items-center min-h-[calc(100vh-3.5rem)] border-x font-[family-name:var(--font-geist-sans)] mx-auto">
-          <SiteHeader />
-          {children}
-          <Footer />
+          <HeroSwapProvider>
+            <SiteHeader />
+
+            {children}
+            <Footer />
+          </HeroSwapProvider>
         </div>
       </body>
     </html>

@@ -1,13 +1,11 @@
 import Automatization from '@/components/automatization'
 import DashboardsShowcases from '@/components/dashboards-showcases'
-import Hero1 from '@/components/hero-1'
-import HeroScene from '@/components/hero-scene'
+import HeroOptions from '@/components/hero-options'
 
 export default function Home() {
   return (
     <>
-      <HeroScene />
-      <Hero1 />
+      <HeroOptions />
       <Automatization />
       <DashboardsShowcases />
     </>

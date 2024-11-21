@@ -7,6 +7,11 @@ export interface MainNavProps {
 
 const mainNav: MainNavProps[] = [
   {
+    name: 'home',
+    href: '/'
+  },
+  
+  {
     name: 'servicos',
     href: '/'
   },
