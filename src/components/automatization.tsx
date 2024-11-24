@@ -1,32 +1,36 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 export default function Automatization() {
   return (
-    <section className="flex justify-center items-center w-full py-10">
-      <div className="grid grid-cols-4 container items-center justify-items-center  font-[family-name:var(--font-geist-sans)] px-4 ">
-        <div className="col-start-1 col-end-3 flex flex-col items-center justify-center gap-8 text-left  h-full">
-          <div className="font-medium text-primary text-lg w-full">
+    <section className="grid md:grid-cols-2 py-10 font-[family-name:var(--font-geist-sans)] px-4">
+      {/* Info Area */}
+      <div className="grid place-items-center">
+        <div className="flex flex-col max-w-lg">
+          <span className="text-primary text-sm px-4 py-1 rounded-full bg-primary/10 text-center w-min">
             Automatizaciones
-          </div>
-          <h1 className="text-4xl font-bold text-balance text-left w-full">
+          </span>
+          <h3 className="text-2xl font-medium mt-4">
             Automatiza tus procesos
-          </h1>
-          <p className="text-base text-foreground/60 text-balance font-medium">
+          </h3>
+          <p className="mt-4 text-slate-600 text-pretty ">
             Automatizar o computarizar tus procesos no solo ahorra tiempo, sino
             que también reduce errores y mejora la productividad. Imagina poder
             delegar tareas repetitivas a sistemas inteligentes que trabajen por
-            ti, permitiéndote centrarte en lo que realmente importa hacer
-            crecer tu negocio.
+            ti, permitiéndote centrarte en lo que realmente importa hacer crecer
+            tu negocio.
           </p>
         </div>
+      </div>
 
-        <div className="flex justify-center items-center col-start-3 col-end-6 w-full h-full overflow-hidden ">
-          <Image
+      {/* Picture section */}
+      <div className="px-4">
+        {/* <Image
             src="/woman-testing.svg"
             alt="a woman testing"
             width={300}
             height={300}
-          />
-        </div>
+          /> */}
+        
+        <div className="bg-slate-100 rounded-lg w-full h-full"> {" "}</div>
       </div>
     </section>
   )
