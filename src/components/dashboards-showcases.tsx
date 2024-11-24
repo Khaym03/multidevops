@@ -5,7 +5,7 @@ export default function DashboardsShowcases() {
   return (
     <section className="flex flex-col h-[calc(100vh-3.5rem)] w-full overflow-hidden mt-10">
       <Header />
-      <section className="flex flex-start relative gap-8 grow w-full shadow-[inset_0_4px_10px_rgba(255,255,255,0.5)]">
+      <section className="flex flex-start relative gap-8 grow w-full [mask-image:linear-gradient(to_top,transparent,black_40%)] ">
         <div className="flex flex-col gap-8 w-[300px] h-full overflow-hidden">
           <Card className="w-[450px] bg-slate-50">
             <Image
@@ -79,7 +79,7 @@ export default function DashboardsShowcases() {
             />
           </Card>
         </div>
-        <BottomFade/>
+        {/* <BottomFade/> */}
       </section>
     </section>
   )
@@ -95,8 +95,3 @@ function Header() {
   )
 }
 
-function BottomFade() {
-  return (
-    <span className="absolute bottom-32 left-0 w-full bg-gradient-to-b from-transparent to-white h-40"></span>
-  )
-}

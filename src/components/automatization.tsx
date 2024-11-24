@@ -1,3 +1,5 @@
+import Tag from "./tag";
+
 // import Image from 'next/image'
 export default function Automatization() {
   return (
@@ -5,9 +7,7 @@ export default function Automatization() {
       {/* Info Area */}
       <div className="grid place-items-center">
         <div className="flex flex-col max-w-lg">
-          <span className="text-primary text-sm px-4 py-1 rounded-full bg-primary/10 text-center w-min">
-            Automatizaciones
-          </span>
+          <Tag>Automatizaciones</Tag>
           <h3 className="text-2xl font-medium mt-4">
             Automatiza tus procesos
           </h3>
