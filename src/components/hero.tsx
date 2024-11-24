@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="grid grid-cols-4 container items-center justify-items-center min-h-[calc(100vh-3.5rem)]  font-[family-name:var(--font-geist-sans)] px-4">
       <div className="col-start-1 col-end-3 flex flex-col items-center justify-center gap-8 text-left h-full">
         <h1 className="text-6xl font-bold text-balance">
-          Impulsa la Transformación Digital de Tu Negocio con MultiDevOps
+        soluciones personalizadas en desarrollo de software
         </h1>
         <p className="text-base text-foreground/60 text-balance">
           Transforma tu negocio con MultiDevOps. Ofrecemos soluciones
