@@ -20,9 +20,9 @@ export default function Hero1() {
             </p>
           </h1>
           <p className="text-base md:text-xl lg:text-2xl max-w-[50rem] mx-auto text-foreground/90 text-balance">
-            Transforma tu negocio con MultiDevOps. Ofrecemos soluciones
+            Transforma tu negocio con soluciones
             personalizadas en desarrollo web, gestión de bases de datos y
-            automatización de procesos para optimizar tu operación.
+            automatización de procesos para optimizar tus operaciones.
           </p>
 
           <div className="flex justify-center items-center gap-4 w-full">

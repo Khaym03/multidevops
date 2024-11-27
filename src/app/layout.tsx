@@ -18,7 +18,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: 'MultiDevOps',
-  description: 'Soluciones para la transformación digital de tu negocio'
+  description: 'Transforma tu negocio con MultiDevOps. Ofrecemos soluciones personalizadas en desarrollo web, gestión de bases de datos y automatización de procesos para optimizar tu operación.'
 }
 
 export default function RootLayout({
