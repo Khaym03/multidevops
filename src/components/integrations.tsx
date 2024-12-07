@@ -41,7 +41,7 @@ export type IntegrationType = typeof integrations
 
 export default function Integrations() {
   return (
-    <section className="grid lg:grid-cols-2 lg:gap-16 py-24 items-center overflow-hidden px-4">
+    <section className="grid lg:grid-cols-2 lg:gap-16 py-24 items-center  px-4 relative overflow-hidden max-w-6xl">
       <div className="max-w-lg">
         <Tag>Integrations</Tag>
         <h3 className="text-2xl md:text-5xl font-light mt-4">
@@ -56,7 +56,7 @@ export default function Integrations() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-4 max-w-lg h-[400px] lg:h-[800px] mt-8 lg:mt-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+      <div className="grid md:grid-cols-2 gap-4 max-w-lg h-[400px] lg:h-[600px] mt-8 lg:mt-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
         <IntegrationsCol integrations={integrations} />
         <IntegrationsCol
           integrations={integrations.slice().reverse()}

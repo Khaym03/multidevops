@@ -35,7 +35,7 @@ export function MainNav() {
         ))}
       </nav>
 
-      <Button onClick={() => setToggle(!toggle)} size={'sm'}>cambio</Button>
+      <Button onClick={() => setToggle(!toggle)} >contactar</Button>
     </div>
   )
 }

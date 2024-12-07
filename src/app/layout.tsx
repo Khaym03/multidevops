@@ -18,7 +18,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: 'MultiDevOps',
-  description: 'Transforma tu negocio con MultiDevOps. Ofrecemos soluciones personalizadas en desarrollo web, gestión de bases de datos y automatización de procesos para optimizar tu operación.'
+  description:
+    'Transforma tu negocio con MultiDevOps. Ofrecemos soluciones personalizadas en desarrollo web, gestión de bases de datos y automatización de procesos para optimizar tu operación.'
 }
 
 export default function RootLayout({
@@ -29,9 +30,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative `}
       >
-        <div className="flex flex-col items-center justify-items-center min-h-[calc(100vh-3.5rem)] border-x font-[family-name:var(--font-geist-sans)] mx-auto">
+       
+        <div className="flex flex-col items-center justify-items-center min-h-[calc(100vh-3.5rem)] border-x font-[family-name:var(--font-geist-sans)] mx-auto relative">
           <HeroSwapProvider>
             <SiteHeader />
 
