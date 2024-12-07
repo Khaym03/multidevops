@@ -3,38 +3,38 @@ import Tag from './tag'
 
 const whatWeDoItems = [
   {
-    title: 'APIs'
+    title: 'Diseño Web Responsivo'
   },
   {
-    title: 'Arquitectura SOLID'
+    title: 'SEO'
   },
   {
-    title: 'Sólidas medidas de seguridad'
+    title: 'Mejora del rendimiento'
   },
   {
-    title: 'Escalabilidad y flexibilidad'
+    title: 'SSR'
   }
 ]
 
-export default function BackendSection() {
+export default function FrontendSection() {
   return (
     <section className=" py-10 font-[family-name:var(--font-geist-sans)] px-8  rounded-2xl max-w-6xl">
       <div className="grid md:grid-cols-2 lg:gap-8 ">
         {/* Info Area */}
         <div className="flex flex-col max-w-lg">
-          <Tag>Backend</Tag>
+          <Tag>Frontend</Tag>
           <h3 className="text-2xl md:text-5xl font-light mt-4">
-            <p>
-              El Poder del Desarrollo de{' '}
-              <strong className="font-bold"> Backend a Medida</strong>
-            </p>
+            <strong className="font-bold">Desarrollo y modernización </strong>
+            <p>de interfaces</p>
           </h3>
 
           <p className=" text-slate-600 text-pretty md:text-lg mt-4">
-            Soluciones de backend a medida que impulsan tu proyecto. Desde
-            arquitecturas escalables hasta API eficientes, transformamos tus
-            ideas en realidades digitales. ¡Déjanos llevar tu visión al
-            siguiente nivel!
+            Hoy en día, tener un sitio web es fundamental para mantener la
+            relevancia en el mercado y conectar con tus clientes. Para no
+            quedarte atrás, es esencial contar con una presencia web sólida.
+            Nuestros servicios de desarrollo front-end te ayudarán a lograrlo,
+            creando interfaces atractivas y funcionales que cautivan a tus
+            usuarios.
           </p>
 
           <ul className="flex flex-col gap-4 mt-6">
